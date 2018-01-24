@@ -60,7 +60,7 @@ class SetupWizard{
 		}
 
 		do{
-			$lang = strtolower($this->getInput("Language", "eng"));
+			$lang = strtolower($this->getInput("Language", "kor"));
 			if(!isset($langs[$lang])){
 				$this->error("Couldn't find the language");
 				$lang = null;
