@@ -1,0 +1,75 @@
+[
+    {
+        "name": "pmmp/pocketmine-spl",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pmmp/PocketMine-SPL.git",
+            "reference": "c56936e6aaad925bb60002b29b1c70f497af4679"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pmmp/PocketMine-SPL/zipball/c56936e6aaad925bb60002b29b1c70f497af4679",
+            "reference": "c56936e6aaad925bb60002b29b1c70f497af4679",
+            "shasum": ""
+        },
+        "time": "2017-12-10T12:18:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "exclude-from-classmap": [
+                "stubs"
+            ],
+            "classmap": [
+                "./"
+            ]
+        },
+        "license": [
+            "LGPL-3.0"
+        ],
+        "description": "Standard library files required by PocketMine-MP and related projects",
+        "support": {
+            "source": "https://github.com/pmmp/PocketMine-SPL/tree/master"
+        }
+    },
+    {
+        "name": "pmmp/raklib",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pmmp/RakLib.git",
+            "reference": "ae39b0bc648ac653f3744d3e9e8e4f6713f8cc11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pmmp/RakLib/zipball/ae39b0bc648ac653f3744d3e9e8e4f6713f8cc11",
+            "reference": "ae39b0bc648ac653f3744d3e9e8e4f6713f8cc11",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bcmath": "*",
+            "ext-pthreads": ">=3.1.7dev",
+            "ext-sockets": "*",
+            "php": ">=7.2.0RC3",
+            "pmmp/pocketmine-spl": "^0.1.0"
+        },
+        "time": "2017-12-28T12:29:47+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "./"
+            ]
+        },
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A RakNet server implementation written in PHP",
+        "support": {
+            "source": "https://github.com/pmmp/RakLib/tree/master",
+            "issues": "https://github.com/pmmp/RakLib/issues"
+        }
+    }
+]
