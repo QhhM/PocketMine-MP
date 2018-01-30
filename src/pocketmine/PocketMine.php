@@ -80,7 +80,7 @@ namespace pocketmine {
 	use raklib\RakLib;
 
 	const NAME = "PocketMine-MP Fork";
-	const VERSION = "1.7dev";
+	const VERSION = "1.7dev-Fork";
 	const API_VERSION = "3.0.0-ALPHA10";
 	const CODENAME = "[Forked by alvin0319]";
 
